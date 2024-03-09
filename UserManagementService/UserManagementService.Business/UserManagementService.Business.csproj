@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserManagementService.Shared\UserManagementService.Shared.csproj" />
+    <ProjectReference Include="..\UserManagementService.Repository\UserManagementService.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
